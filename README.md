@@ -52,6 +52,10 @@ This project demonstrates skills in software development, database management, f
 
 ![Savings Goals](screenshots/savings_goals.png)
 
+### Monthly Budgets
+
+![Monthly Budgets](screenshots/monthly_budgets.png)
+
 ## How to Run
 
 1. Install Python 3.
