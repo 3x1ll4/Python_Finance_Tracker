@@ -1,89 +1,103 @@
 # Python_Finance_Tracker
 A Python desktop application for tracking income, expenses, budgets, and savings goals using SQLite and Tkinter.
-Personal Finance Tracker
+
+
+# Personal Finance Tracker
 
 A Python desktop application designed to help users manage their finances, monitor spending, create budgets, and track savings goals.
 
-Features
+## Project Overview
 
-Financial dashboard displaying total income, expenses, balance, and savings goals
+The Personal Finance Tracker is a desktop application built using Python, Tkinter, and SQLite. It allows users to record financial transactions, visualize spending patterns, manage monthly budgets, and track savings progress.
 
-Add and delete financial transactions
+This project demonstrates skills in software development, database management, financial analysis, and data visualization.
 
-SQLite database for persistent data storage
+## Features
 
-Transaction history with dates, categories, and descriptions
+- Financial dashboard displaying total income, expenses, balance, and savings
+- Add and delete financial transactions
+- SQLite database for persistent data storage
+- Transaction history with dates, categories, and descriptions
+- Spending analysis by category
+- Monthly income vs. expenses visualization
+- Savings goals with progress tracking
+- Monthly spending budgets
+- CSV export for financial reporting
+- Dark-themed graphical user interface
 
-Spending analysis by category
+## Technologies Used
 
-Monthly income vs. expenses visualization
+- **Python** - Application development and financial calculations
+- **Tkinter** - Desktop graphical user interface
+- **SQLite** - Database management and persistent storage
+- **SQL** - Financial data retrieval and aggregation
+- **CSV** - Exporting financial transaction data
+- **Tkinter Canvas** - Custom financial charts and visualizations
 
-Savings goals with progress tracking
+## Application Screenshots
 
-Monthly spending budgets
+### Financial Dashboard
 
-CSV export for financial reporting
+![Financial Dashboard](screenshots/dashboard.png)
 
-Dark-themed graphical user interface
+### Spending by Category
 
-Technologies Used
+![Spending Chart](screenshots/spending_chart.png)
 
-Python – Application development and financial calculations
+### Monthly Income vs. Expenses
 
-Tkinter – Desktop graphical user interface
+![Monthly Trends](screenshots/monthly_trends.png)
 
-SQLite – Database management and SQL queries
+### Savings Goals
 
-CSV – Exporting transaction data
+![Savings Goals](screenshots/savings_goals.png)
 
-SQL – Financial aggregation and reporting
+## How to Run
 
-How to Run
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open the project folder.
+4. Run the application using:
 
-Install Python 3.
+    python finance_tracker.py
 
-Download or clone this repository.
-
-Open finance_tracker.py in Python IDLE or another Python environment.
-
-Run the application.
-
-No additional Python packages are required.
+No additional third-party Python packages are required.
 
 The application automatically creates a SQLite database when first launched.
 
-Project Highlights
+## Project Highlights
 
 This project demonstrates practical experience with:
 
-Python programming and GUI development
+- Python programming and desktop application development
+- Relational database design and management
+- SQL queries and financial data aggregation
+- Financial data analysis and reporting
+- Data visualization using custom charts
+- Input validation and error handling
+- Database CRUD operations
+- CSV file generation and data export
+- Financial budgeting and savings calculations
 
-Relational database design
+## Database Structure
 
-SQL queries and data aggregation
+The application uses SQLite to manage three primary database tables:
 
-Financial data analysis
+- **Transactions** - Stores income, expenses, categories, descriptions, and dates.
+- **Savings Goals** - Stores savings targets and current progress.
+- **Budgets** - Stores category-based monthly spending limits.
 
-Data visualization
+Database records are stored locally and persist between application sessions.
 
-Input validation
+## Future Improvements
 
-CRUD operations
+- Edit existing transactions
+- Advanced financial reporting
+- Monthly and yearly filtering
+- Additional financial visualizations
+- Improved responsive layouts
+- More detailed budgeting features
 
-File handling and CSV exports
-
-Future Improvements
-
-Transaction editing
-
-Advanced financial reporting
-
-Monthly filtering
-
-Additional data visualizations
-
-Improved responsive layouts
-
-Author
+## Author
 
 Developed as part of a professional portfolio focused on software development, finance, and data analytics.
